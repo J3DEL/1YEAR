@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url(../img/nathan-dumlao-EdULZpOKsUE-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.start-txt {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500px;
+    color: white;
+    
+}
+
+.btn-container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*padding: 25px;
+    margin-bottom: 20px;*/
+}
